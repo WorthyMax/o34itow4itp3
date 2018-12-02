@@ -3,7 +3,7 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-   client.user.setActivity("اكتب اي شي",{type: 'WATCHING'})
+   client.user.setActivity("اMade By WorthyMax Enjoy :D",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -41,7 +41,7 @@ var prefix = "البرفكس"
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
-    if (!msg.content.startsWith(prefix)) return undefined;
+    if (!msg.content.startsWith(++)) return undefined;
     const args = msg.content.split(' ');
     const searchString = args.slice(1).join(' ');
    
